@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "lightning_bolt:items/tutorial_pickaxe"
+	}
+}

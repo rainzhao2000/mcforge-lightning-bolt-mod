@@ -1,0 +1,41 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "com\rain\lightning_bolt\ClientProxy.java" md5: b62d6ccaf06d67c34c9cbce2717c6aa0
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\ClientProxy.java"
+
+startProcessing "com\rain\lightning_bolt\CommonProxy.java" md5: 0ffe5a3360944e0c502cf3dca1b0d317
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\CommonProxy.java"
+
+startProcessing "com\rain\lightning_bolt\LightningBolt.java" md5: f3d2846ad097163c8ea220d90014b8b0
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\LightningBolt.java"
+
+startProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java" md5: ca596375cd5b6841dc74a00103f247c6
+endProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java"
+
+startProcessing "com\rain\lightning_bolt\init\ModBlocks.java" md5: 7ae5d8ffef9a39aa4c5624c832b1ee60
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\init\ModBlocks.java"
+
+startProcessing "com\rain\lightning_bolt\init\ModItems.java" md5: cd10d5e734c75137b7ac89c04fd5c20a
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\init\ModItems.java"
+
+startProcessing "com\rain\lightning_bolt\item\ItemFireBeGone.java" md5: 60c233175cb062a7e4a1a9933e1109c8
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\item\ItemFireBeGone.java"
+
+startProcessing "com\rain\lightning_bolt\item\ItemLightningBolt.java" md5: 5c5f04e17d7bc735b235e33266cebcaa
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\item\ItemLightningBolt.java"
+
+startProcessing "com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java" md5: 13f707f19afbfb88473a4de5bfb72a09
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java"
+
+startProcessing "com\rain\lightning_bolt\lib\Names.java" md5: 83855195a7955e01bd365598e1a5c404
+Cache Hit!
+endProcessing "com\rain\lightning_bolt\lib\Names.java"
+

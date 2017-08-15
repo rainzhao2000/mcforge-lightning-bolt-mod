@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lightning_bolt:items/fire_be_gone_item"
+  }
+}
+

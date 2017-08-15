@@ -1,0 +1,11 @@
+[{
+  "modid": "lightning_bolt",
+  "name": "Lightning Bolt Mod",
+  "description": "Strike down a lightning bolt where you look!",
+  "version": "1.0",
+  "mcversion": "1.12",
+  "logoFile": "assets/lightning_bolt/textures/items/lightning_bolt_item.png",
+  "url": "https://minecraft.curseforge.com/projects/lightning-bolt-mod",
+  "authorList": ["Rain Zhao AKA raintrollstar"],
+  "credits": "I'd like to thank SilentChaos512 for his modding tutorials."
+}]

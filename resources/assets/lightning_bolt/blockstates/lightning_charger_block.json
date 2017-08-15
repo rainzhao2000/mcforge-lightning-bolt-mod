@@ -1,0 +1,11 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "normal": { "model": "lightning_bolt:lightning_charger_block" },
+		"inventory": [{
+			"textures": {
+				"all": "lightning_bolt:blocks/lightning_charger_block"
+			}
+		}]
+    }
+}

@@ -1,0 +1,13 @@
+# Blocks
+
+tile.lightning_bolt:lightning_charger_block.name=Lightning Charger
+
+# Items
+
+item.lightning_bolt:lightning_bolt_item.name=Lightning Bolt
+item.lightning_bolt:fire_be_gone_item.name=Fire Be Gone
+item.lightning_bolt:tutorial_pickaxe.name=Tutorial Pickaxe
+
+# Creative Tab
+
+itemGroup.lightning_bolt:tab_lightning_bolt=Lightning Bolt Tab

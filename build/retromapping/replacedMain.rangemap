@@ -1,0 +1,716 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "com\rain\lightning_bolt\ClientProxy.java" md5: b62d6ccaf06d67c34c9cbce2717c6aa0
+Cache Hit!
+@|com\rain\lightning_bolt\ClientProxy.java|8|31|com.rain.lightning_bolt|package|com.rain.lightning_bolt|(file)
+Class Start: com.rain.lightning_bolt.ClientProxy
+   @|com\rain\lightning_bolt\ClientProxy.java|443|454|ClientProxy|class|com.rain.lightning_bolt.ClientProxy
+   @|com\rain\lightning_bolt\ClientProxy.java|463|474|CommonProxy|class|com.rain.lightning_bolt.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|538|543|event|param|com.rain.lightning_bolt.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\ClientProxy.java|481|489|Override|class|java.lang.Override
+      @|com\rain\lightning_bolt\ClientProxy.java|504|511|preInit|method|com.rain.lightning_bolt.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|512|537|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\rain\lightning_bolt\ClientProxy.java|554|561|preInit|method|com.rain.lightning_bolt.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|562|567|event|param|com.rain.lightning_bolt.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|631|636|event|param|com.rain.lightning_bolt.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\ClientProxy.java|580|588|Override|class|java.lang.Override
+      @|com\rain\lightning_bolt\ClientProxy.java|603|607|init|method|com.rain.lightning_bolt.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|608|630|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\rain\lightning_bolt\ClientProxy.java|647|651|init|method|com.rain.lightning_bolt.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|652|657|event|param|com.rain.lightning_bolt.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\ClientProxy.java|661|676|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|com\rain\lightning_bolt\ClientProxy.java|686|695|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\rain\lightning_bolt\ClientProxy.java|696|708|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\rain\lightning_bolt\ClientProxy.java|711|724|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\rain\lightning_bolt\ClientProxy.java|727|745|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\rain\lightning_bolt\ClientProxy.java|750|759|ModBlocks|class|com.rain.lightning_bolt.init.ModBlocks
+      @|com\rain\lightning_bolt\ClientProxy.java|760|770|initClient|method|com.rain.lightning_bolt.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|781|789|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\ClientProxy.java|790|800|initClient|method|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|879|884|event|param|com.rain.lightning_bolt.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\ClientProxy.java|820|828|Override|class|java.lang.Override
+      @|com\rain\lightning_bolt\ClientProxy.java|843|851|postInit|method|com.rain.lightning_bolt.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|852|878|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\rain\lightning_bolt\ClientProxy.java|895|903|postInit|method|com.rain.lightning_bolt.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\ClientProxy.java|904|909|event|param|com.rain.lightning_bolt.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.rain.lightning_bolt.ClientProxy
+endProcessing "com\rain\lightning_bolt\ClientProxy.java"
+
+startProcessing "com\rain\lightning_bolt\CommonProxy.java" md5: 0ffe5a3360944e0c502cf3dca1b0d317
+Cache Hit!
+@|com\rain\lightning_bolt\CommonProxy.java|8|31|com.rain.lightning_bolt|package|com.rain.lightning_bolt|(file)
+Class Start: com.rain.lightning_bolt.CommonProxy
+   @|com\rain\lightning_bolt\CommonProxy.java|350|361|CommonProxy|class|com.rain.lightning_bolt.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|413|418|event|param|com.rain.lightning_bolt.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\CommonProxy.java|379|386|preInit|method|com.rain.lightning_bolt.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|387|412|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\rain\lightning_bolt\CommonProxy.java|423|432|ModBlocks|class|com.rain.lightning_bolt.init.ModBlocks
+      @|com\rain\lightning_bolt\CommonProxy.java|433|437|init|method|com.rain.lightning_bolt.init.ModBlocks|init|()V
+      @|com\rain\lightning_bolt\CommonProxy.java|442|450|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\CommonProxy.java|451|455|init|method|com.rain.lightning_bolt.init.ModItems|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|508|513|event|param|com.rain.lightning_bolt.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\CommonProxy.java|480|484|init|method|com.rain.lightning_bolt.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|485|507|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\rain\lightning_bolt\CommonProxy.java|518|527|ModBlocks|class|com.rain.lightning_bolt.init.ModBlocks
+      @|com\rain\lightning_bolt\CommonProxy.java|528|539|initRecipes|method|com.rain.lightning_bolt.init.ModBlocks|initRecipes|()V
+      @|com\rain\lightning_bolt\CommonProxy.java|544|552|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\CommonProxy.java|553|564|initRecipes|method|com.rain.lightning_bolt.init.ModItems|initRecipes|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|625|630|event|param|com.rain.lightning_bolt.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\CommonProxy.java|589|597|postInit|method|com.rain.lightning_bolt.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\CommonProxy.java|598|624|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.rain.lightning_bolt.CommonProxy
+endProcessing "com\rain\lightning_bolt\CommonProxy.java"
+
+startProcessing "com\rain\lightning_bolt\LightningBolt.java" md5: f3d2846ad097163c8ea220d90014b8b0
+Cache Hit!
+@|com\rain\lightning_bolt\LightningBolt.java|8|31|com.rain.lightning_bolt|package|com.rain.lightning_bolt|(file)
+Class Start: com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|598|601|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\rain\lightning_bolt\LightningBolt.java|602|607|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|610|623|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|624|630|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+   @|com\rain\lightning_bolt\LightningBolt.java|632|636|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|639|652|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|653|661|MOD_NAME|field|com.rain.lightning_bolt.LightningBolt|MOD_NAME
+   @|com\rain\lightning_bolt\LightningBolt.java|663|670|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|673|686|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|687|694|VERSION|field|com.rain.lightning_bolt.LightningBolt|VERSION
+   @|com\rain\lightning_bolt\LightningBolt.java|696|708|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|711|724|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|725|737|DEPENDENCIES|field|com.rain.lightning_bolt.LightningBolt|DEPENDENCIES
+   @|com\rain\lightning_bolt\LightningBolt.java|752|765|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|806|812|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|806|812|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|813|819|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID|
+   @|com\rain\lightning_bolt\LightningBolt.java|862|868|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|862|868|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|869|877|MOD_NAME|field|com.rain.lightning_bolt.LightningBolt|MOD_NAME|
+   @|com\rain\lightning_bolt\LightningBolt.java|924|930|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|924|930|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|931|938|VERSION|field|com.rain.lightning_bolt.LightningBolt|VERSION|
+   @|com\rain\lightning_bolt\LightningBolt.java|970|976|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|970|976|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|977|989|DEPENDENCIES|field|com.rain.lightning_bolt.LightningBolt|DEPENDENCIES|
+   @|com\rain\lightning_bolt\LightningBolt.java|1054|1060|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|1054|1060|String|class|java.lang.String
+   @|com\rain\lightning_bolt\LightningBolt.java|1061|1076|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX|
+   @|com\rain\lightning_bolt\LightningBolt.java|1079|1085|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+   @|com\rain\lightning_bolt\LightningBolt.java|1086|1097|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|1160|1166|Random|class|java.util.Random
+   @|com\rain\lightning_bolt\LightningBolt.java|1160|1166|Random|class|java.util.Random
+   @|com\rain\lightning_bolt\LightningBolt.java|1167|1173|random|field|com.rain.lightning_bolt.LightningBolt|random|
+   @|com\rain\lightning_bolt\LightningBolt.java|1180|1186|Random|class|java.util.Random
+   @|com\rain\lightning_bolt\LightningBolt.java|1229|1242|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|1196|1204|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\rain\lightning_bolt\LightningBolt.java|1205|1211|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+   @|com\rain\lightning_bolt\LightningBolt.java|1229|1242|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|1243|1251|instance|field|com.rain.lightning_bolt.LightningBolt|instance|
+   @|com\rain\lightning_bolt\LightningBolt.java|1390|1401|CommonProxy|class|com.rain.lightning_bolt.CommonProxy
+   @|com\rain\lightning_bolt\LightningBolt.java|1259|1269|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\rain\lightning_bolt\LightningBolt.java|1270|1280|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|1322|1332|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\rain\lightning_bolt\LightningBolt.java|1390|1401|CommonProxy|class|com.rain.lightning_bolt.CommonProxy
+   @|com\rain\lightning_bolt\LightningBolt.java|1402|1407|proxy|field|com.rain.lightning_bolt.LightningBolt|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1476|1481|event|param|com.rain.lightning_bolt.LightningBolt|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\LightningBolt.java|1415|1427|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\rain\lightning_bolt\LightningBolt.java|1442|1449|preInit|method|com.rain.lightning_bolt.LightningBolt|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1450|1475|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\rain\lightning_bolt\LightningBolt.java|1489|1494|proxy|field|com.rain.lightning_bolt.LightningBolt|proxy
+      @|com\rain\lightning_bolt\LightningBolt.java|1495|1502|preInit|method|com.rain.lightning_bolt.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1503|1508|event|param|com.rain.lightning_bolt.LightningBolt|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1576|1581|event|param|com.rain.lightning_bolt.LightningBolt|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\LightningBolt.java|1521|1533|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\rain\lightning_bolt\LightningBolt.java|1548|1552|init|method|com.rain.lightning_bolt.LightningBolt|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1553|1575|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\rain\lightning_bolt\LightningBolt.java|1586|1591|proxy|field|com.rain.lightning_bolt.LightningBolt|proxy
+      @|com\rain\lightning_bolt\LightningBolt.java|1592|1596|init|method|com.rain.lightning_bolt.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1597|1602|event|param|com.rain.lightning_bolt.LightningBolt|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1678|1683|event|param|com.rain.lightning_bolt.LightningBolt|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\rain\lightning_bolt\LightningBolt.java|1615|1627|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\rain\lightning_bolt\LightningBolt.java|1642|1650|postInit|method|com.rain.lightning_bolt.LightningBolt|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1651|1677|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\rain\lightning_bolt\LightningBolt.java|1688|1693|proxy|field|com.rain.lightning_bolt.LightningBolt|proxy
+      @|com\rain\lightning_bolt\LightningBolt.java|1694|1702|postInit|method|com.rain.lightning_bolt.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\rain\lightning_bolt\LightningBolt.java|1703|1708|event|param|com.rain.lightning_bolt.LightningBolt|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   @|com\rain\lightning_bolt\LightningBolt.java|1734|1746|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\rain\lightning_bolt\LightningBolt.java|1734|1746|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\rain\lightning_bolt\LightningBolt.java|1747|1763|tabLightningBolt|field|com.rain.lightning_bolt.LightningBolt|tabLightningBolt|
+   @|com\rain\lightning_bolt\LightningBolt.java|1770|1782|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\rain\lightning_bolt\LightningBolt.java|1783|1796|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\LightningBolt.java|1797|1812|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+   Anon Class Start: com.rain.lightning_bolt.LightningBolt$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         @|com\rain\lightning_bolt\LightningBolt.java|1843|1851|Override|class|java.lang.Override
+         @|com\rain\lightning_bolt\LightningBolt.java|1863|1872|ItemStack|class|net.minecraft.item.ItemStack
+         @|com\rain\lightning_bolt\LightningBolt.java|1873|1887|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|com\rain\lightning_bolt\LightningBolt.java|1909|1918|ItemStack|class|net.minecraft.item.ItemStack
+         @|com\rain\lightning_bolt\LightningBolt.java|1919|1927|ModItems|class|com.rain.lightning_bolt.init.ModItems
+         @|com\rain\lightning_bolt\LightningBolt.java|1928|1945|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Anon Class End: com.rain.lightning_bolt.LightningBolt$1
+Class End  : com.rain.lightning_bolt.LightningBolt
+endProcessing "com\rain\lightning_bolt\LightningBolt.java"
+
+startProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java" md5: ca596375cd5b6841dc74a00103f247c6
+@|com\rain\lightning_bolt\block\BlockLightningCharger.java|8|37|com.rain.lightning_bolt.block|package|com.rain.lightning_bolt.block|(file)
+Class Start: com.rain.lightning_bolt.block.BlockLightningCharger
+   @|com\rain\lightning_bolt\block\BlockLightningCharger.java|793|814|BlockLightningCharger|class|com.rain.lightning_bolt.block.BlockLightningCharger
+   @|com\rain\lightning_bolt\block\BlockLightningCharger.java|823|828|Block|class|net.minecraft.block.Block
+   Method Start: BlockLightningCharger(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|870|874|name|param|com.rain.lightning_bolt.block.BlockLightningCharger|BlockLightningCharger|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|841|862|BlockLightningCharger|method|com.rain.lightning_bolt.block.BlockLightningCharger|BlockLightningCharger|(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|863|869|String|class|java.lang.String
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|888|896|Material|class|net.minecraft.block.material.Material
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|897|901|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|908|926|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|927|931|name|param|com.rain.lightning_bolt.block.BlockLightningCharger|BlockLightningCharger|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|938|953|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|954|958|name|param|com.rain.lightning_bolt.block.BlockLightningCharger|BlockLightningCharger|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|965|979|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|980|993|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|994|1010|tabLightningBolt|field|com.rain.lightning_bolt.LightningBolt|tabLightningBolt
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1017|1028|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1040|1053|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1066|1081|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockLightningCharger(Ljava/lang/String;)V
+   Method Start: addRecipes()V
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1118|1128|addRecipes|method|com.rain.lightning_bolt.block.BlockLightningCharger|addRecipes|()V
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1134|1146|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1147|1162|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1167|1183|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1184|1197|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1198|1204|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1206|1211|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1212|1235|LIGHTNING_CHARGER_BLOCK|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_CHARGER_BLOCK
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1242|1258|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1259|1272|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1273|1279|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1281|1286|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1287|1310|LIGHTNING_CHARGER_BLOCK|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_CHARGER_BLOCK
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1317|1326|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1372|1381|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1382|1390|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1391|1408|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1413|1426|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1427|1441|WILDCARD_VALUE|field|net.minecraftforge.oredict.OreDictionary|WILDCARD_VALUE
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1449|1455|Blocks|class|net.minecraft.init.Blocks
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1456|1469|DIAMOND_BLOCK|field|net.minecraft.init.Blocks|DIAMOND_BLOCK
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1476|1482|Blocks|class|net.minecraft.init.Blocks
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1483|1491|OBSIDIAN|field|net.minecraft.init.Blocks|OBSIDIAN
+   Method End: addRecipes()V
+   Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1541|1548|worldIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1559|1562|pos|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1576|1581|state|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1596|1604|playerIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1615|1619|hand|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1632|1638|facing|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|facing|5
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1646|1650|hitX|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|6
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1658|1662|hitY|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|7
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1670|1674|hitZ|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|8
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1518|1534|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1535|1540|World|class|net.minecraft.world.World
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1550|1558|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1564|1575|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1583|1595|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1606|1614|EnumHand|class|net.minecraft.util.EnumHand
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1621|1631|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1679|1688|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1701|1709|playerIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1710|1721|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1722|1726|hand|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1735|1742|worldIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1743|1751|isRemote|field|net.minecraft.world.World|isRemote
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1765|1772|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1778|1786|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1787|1804|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1811|1818|worldIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1819|1835|addWeatherEffect|method|net.minecraft.world.World|addWeatherEffect|(Lnet/minecraft/entity/Entity;)Z
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1840|1859|EntityLightningBolt|class|net.minecraft.entity.effect.EntityLightningBolt
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1860|1867|worldIn|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1869|1872|pos|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1873|1877|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1881|1884|pos|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1885|1889|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1893|1896|pos|param|com.rain.lightning_bolt.block.BlockLightningCharger|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1897|1901|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com\rain\lightning_bolt\block\BlockLightningCharger.java|1926|1939|setItemDamage|method|net.minecraft.item.ItemStack|setItemDamage|(I)V
+   Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+Class End  : com.rain.lightning_bolt.block.BlockLightningCharger
+endProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java"
+
+startProcessing "com\rain\lightning_bolt\init\ModBlocks.java" md5: 7ae5d8ffef9a39aa4c5624c832b1ee60
+Cache Hit!
+@|com\rain\lightning_bolt\init\ModBlocks.java|8|36|com.rain.lightning_bolt.init|package|com.rain.lightning_bolt.init|(file)
+Class Start: com.rain.lightning_bolt.init.ModBlocks
+   @|com\rain\lightning_bolt\init\ModBlocks.java|736|745|ModBlocks|class|com.rain.lightning_bolt.init.ModBlocks
+   @|com\rain\lightning_bolt\init\ModBlocks.java|765|786|BlockLightningCharger|class|com.rain.lightning_bolt.block.BlockLightningCharger
+   @|com\rain\lightning_bolt\init\ModBlocks.java|765|786|BlockLightningCharger|class|com.rain.lightning_bolt.block.BlockLightningCharger
+   @|com\rain\lightning_bolt\init\ModBlocks.java|787|808|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock|
+   @|com\rain\lightning_bolt\init\ModBlocks.java|826|830|Item|class|net.minecraft.item.Item
+   @|com\rain\lightning_bolt\init\ModBlocks.java|826|830|Item|class|net.minecraft.item.Item
+   @|com\rain\lightning_bolt\init\ModBlocks.java|831|856|lightningChargerBlockItem|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlockItem|
+   Method Start: init()V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|881|885|init|method|com.rain.lightning_bolt.init.ModBlocks|init|()V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|894|915|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock
+      @|com\rain\lightning_bolt\init\ModBlocks.java|922|943|BlockLightningCharger|class|com.rain.lightning_bolt.block.BlockLightningCharger
+      @|com\rain\lightning_bolt\init\ModBlocks.java|944|957|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModBlocks.java|958|973|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModBlocks.java|976|981|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModBlocks.java|982|1005|LIGHTNING_CHARGER_BLOCK|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_CHARGER_BLOCK
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1012|1037|lightningChargerBlockItem|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlockItem
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1044|1053|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1054|1075|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1077|1092|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1093|1114|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1115|1130|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init()V
+   Method Start: initRecipes()V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1163|1174|initRecipes|method|com.rain.lightning_bolt.init.ModBlocks|initRecipes|()V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1180|1201|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1202|1212|addRecipes|method|com.rain.lightning_bolt.block.BlockLightningCharger|addRecipes|()V
+   Method End: initRecipes()V
+   Class Start: com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1226|1248|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1249|1254|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1257|1270|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1271|1277|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1301|1320|RegistrationHandler|class|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler
+      Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1409|1414|event|param|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1329|1343|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1364|1378|registerBlocks|method|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1379|1401|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1402|1407|Block|class|net.minecraft.block.Block
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1421|1426|event|param|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1427|1438|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1441|1452|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1453|1474|lightningChargerBlock|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlock
+      Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1568|1573|event|param|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1485|1499|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1520|1538|registerItemBlocks|method|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1539|1561|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1562|1566|Item|class|net.minecraft.item.Item
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1580|1585|event|param|com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1586|1597|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1600|1611|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|com\rain\lightning_bolt\init\ModBlocks.java|1612|1637|lightningChargerBlockItem|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlockItem
+      Method End: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : com.rain.lightning_bolt.init.ModBlocks.RegistrationHandler
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1725|1731|mesher|param|com.rain.lightning_bolt.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1655|1663|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1664|1668|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1669|1675|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1698|1708|initClient|method|com.rain.lightning_bolt.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1709|1724|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1736|1757|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1770|1791|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1792|1805|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1806|1821|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1824|1829|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1830|1853|LIGHTNING_CHARGER_BLOCK|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_CHARGER_BLOCK
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1870|1881|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1882|1902|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1903|1928|lightningChargerBlockItem|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlockItem
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1939|1945|mesher|param|com.rain.lightning_bolt.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1946|1954|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModBlocks.java|1955|1980|lightningChargerBlockItem|field|com.rain.lightning_bolt.init.ModBlocks|lightningChargerBlockItem
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : com.rain.lightning_bolt.init.ModBlocks
+endProcessing "com\rain\lightning_bolt\init\ModBlocks.java"
+
+startProcessing "com\rain\lightning_bolt\init\ModItems.java" md5: cd10d5e734c75137b7ac89c04fd5c20a
+Cache Hit!
+@|com\rain\lightning_bolt\init\ModItems.java|8|36|com.rain.lightning_bolt.init|package|com.rain.lightning_bolt.init|(file)
+Class Start: com.rain.lightning_bolt.init.ModItems
+   @|com\rain\lightning_bolt\init\ModItems.java|869|877|ModItems|class|com.rain.lightning_bolt.init.ModItems
+   @|com\rain\lightning_bolt\init\ModItems.java|897|909|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\rain\lightning_bolt\init\ModItems.java|897|909|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\rain\lightning_bolt\init\ModItems.java|910|922|toolMaterial|field|com.rain.lightning_bolt.init.ModItems|toolMaterial|
+   @|com\rain\lightning_bolt\init\ModItems.java|925|935|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\rain\lightning_bolt\init\ModItems.java|936|951|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\rain\lightning_bolt\init\ModItems.java|952|965|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+   @|com\rain\lightning_bolt\init\ModItems.java|966|981|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+   @|com\rain\lightning_bolt\init\ModItems.java|1035|1052|ItemLightningBolt|class|com.rain.lightning_bolt.item.ItemLightningBolt
+   @|com\rain\lightning_bolt\init\ModItems.java|1035|1052|ItemLightningBolt|class|com.rain.lightning_bolt.item.ItemLightningBolt
+   @|com\rain\lightning_bolt\init\ModItems.java|1053|1070|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem|
+   @|com\rain\lightning_bolt\init\ModItems.java|1088|1102|ItemFireBeGone|class|com.rain.lightning_bolt.item.ItemFireBeGone
+   @|com\rain\lightning_bolt\init\ModItems.java|1088|1102|ItemFireBeGone|class|com.rain.lightning_bolt.item.ItemFireBeGone
+   @|com\rain\lightning_bolt\init\ModItems.java|1103|1117|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem|
+   @|com\rain\lightning_bolt\init\ModItems.java|1135|1154|ItemTutorialPickaxe|class|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+   @|com\rain\lightning_bolt\init\ModItems.java|1135|1154|ItemTutorialPickaxe|class|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+   @|com\rain\lightning_bolt\init\ModItems.java|1155|1170|tutorialPickaxe|field|com.rain.lightning_bolt.init.ModItems|tutorialPickaxe|
+   Method Start: init()V
+      @|com\rain\lightning_bolt\init\ModItems.java|1195|1199|init|method|com.rain.lightning_bolt.init.ModItems|init|()V
+      @|com\rain\lightning_bolt\init\ModItems.java|1208|1225|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\init\ModItems.java|1232|1249|ItemLightningBolt|class|com.rain.lightning_bolt.item.ItemLightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|1250|1263|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|1264|1279|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|1282|1287|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|1288|1307|LIGHTNING_BOLT_ITEM|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_BOLT_ITEM
+      @|com\rain\lightning_bolt\init\ModItems.java|1314|1328|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem
+      @|com\rain\lightning_bolt\init\ModItems.java|1335|1349|ItemFireBeGone|class|com.rain.lightning_bolt.item.ItemFireBeGone
+      @|com\rain\lightning_bolt\init\ModItems.java|1350|1363|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|1364|1379|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|1382|1387|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|1388|1405|FIRE_BE_GONE_ITEM|field|com.rain.lightning_bolt.lib.Names|FIRE_BE_GONE_ITEM
+      @|com\rain\lightning_bolt\init\ModItems.java|1412|1427|tutorialPickaxe|field|com.rain.lightning_bolt.init.ModItems|tutorialPickaxe
+      @|com\rain\lightning_bolt\init\ModItems.java|1434|1453|ItemTutorialPickaxe|class|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+      @|com\rain\lightning_bolt\init\ModItems.java|1454|1467|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|1468|1483|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|1486|1491|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|1492|1508|TUTORIAL_PICKAXE|field|com.rain.lightning_bolt.lib.Names|TUTORIAL_PICKAXE
+   Method End: init()V
+   Method Start: initRecipes()V
+      @|com\rain\lightning_bolt\init\ModItems.java|1539|1550|initRecipes|method|com.rain.lightning_bolt.init.ModItems|initRecipes|()V
+      @|com\rain\lightning_bolt\init\ModItems.java|1556|1573|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\init\ModItems.java|1574|1584|addRecipes|method|com.rain.lightning_bolt.item.ItemLightningBolt|addRecipes|()V
+      @|com\rain\lightning_bolt\init\ModItems.java|1589|1603|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem
+      @|com\rain\lightning_bolt\init\ModItems.java|1604|1614|addRecipes|method|com.rain.lightning_bolt.item.ItemFireBeGone|addRecipes|()V
+   Method End: initRecipes()V
+   Class Start: com.rain.lightning_bolt.init.ModItems.RegistrationHandler
+      @|com\rain\lightning_bolt\init\ModItems.java|1628|1650|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|com\rain\lightning_bolt\init\ModItems.java|1651|1656|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|com\rain\lightning_bolt\init\ModItems.java|1659|1672|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|1673|1679|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\init\ModItems.java|1703|1722|RegistrationHandler|class|com.rain.lightning_bolt.init.ModItems.RegistrationHandler
+      Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModItems.java|1809|1814|event|param|com.rain.lightning_bolt.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModItems.java|1731|1745|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\rain\lightning_bolt\init\ModItems.java|1766|1779|registerItems|method|com.rain.lightning_bolt.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\rain\lightning_bolt\init\ModItems.java|1780|1802|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|com\rain\lightning_bolt\init\ModItems.java|1803|1807|Item|class|net.minecraft.item.Item
+         @|com\rain\lightning_bolt\init\ModItems.java|1821|1826|event|param|com.rain.lightning_bolt.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\rain\lightning_bolt\init\ModItems.java|1827|1838|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|com\rain\lightning_bolt\init\ModItems.java|1841|1852|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|com\rain\lightning_bolt\init\ModItems.java|1853|1870|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+         @|com\rain\lightning_bolt\init\ModItems.java|1872|1886|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem
+         @|com\rain\lightning_bolt\init\ModItems.java|1888|1903|tutorialPickaxe|field|com.rain.lightning_bolt.init.ModItems|tutorialPickaxe
+      Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : com.rain.lightning_bolt.init.ModItems.RegistrationHandler
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|1991|1997|mesher|param|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModItems.java|1921|1929|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\rain\lightning_bolt\init\ModItems.java|1930|1934|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\rain\lightning_bolt\init\ModItems.java|1935|1941|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\rain\lightning_bolt\init\ModItems.java|1964|1974|initClient|method|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|1975|1990|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|com\rain\lightning_bolt\init\ModItems.java|2002|2023|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModItems.java|2036|2057|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModItems.java|2058|2071|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|2072|2087|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|2090|2095|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|2096|2115|LIGHTNING_BOLT_ITEM|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_BOLT_ITEM
+      @|com\rain\lightning_bolt\init\ModItems.java|2132|2143|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\rain\lightning_bolt\init\ModItems.java|2144|2164|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2165|2182|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\init\ModItems.java|2193|2199|mesher|param|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModItems.java|2200|2208|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2209|2226|lightningBoltItem|field|com.rain.lightning_bolt.init.ModItems|lightningBoltItem
+      @|com\rain\lightning_bolt\init\ModItems.java|2254|2275|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModItems.java|2276|2289|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|2290|2305|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|2308|2313|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|2314|2331|FIRE_BE_GONE_ITEM|field|com.rain.lightning_bolt.lib.Names|FIRE_BE_GONE_ITEM
+      @|com\rain\lightning_bolt\init\ModItems.java|2348|2359|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\rain\lightning_bolt\init\ModItems.java|2360|2380|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2381|2395|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem
+      @|com\rain\lightning_bolt\init\ModItems.java|2406|2412|mesher|param|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModItems.java|2413|2421|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2422|2436|fireBeGoneItem|field|com.rain.lightning_bolt.init.ModItems|fireBeGoneItem
+      @|com\rain\lightning_bolt\init\ModItems.java|2464|2485|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\rain\lightning_bolt\init\ModItems.java|2486|2499|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\init\ModItems.java|2500|2515|RESOURCE_PREFIX|field|com.rain.lightning_bolt.LightningBolt|RESOURCE_PREFIX
+      @|com\rain\lightning_bolt\init\ModItems.java|2518|2523|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\init\ModItems.java|2524|2540|TUTORIAL_PICKAXE|field|com.rain.lightning_bolt.lib.Names|TUTORIAL_PICKAXE
+      @|com\rain\lightning_bolt\init\ModItems.java|2557|2568|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\rain\lightning_bolt\init\ModItems.java|2569|2589|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2590|2605|tutorialPickaxe|field|com.rain.lightning_bolt.init.ModItems|tutorialPickaxe
+      @|com\rain\lightning_bolt\init\ModItems.java|2616|2622|mesher|param|com.rain.lightning_bolt.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|com\rain\lightning_bolt\init\ModItems.java|2623|2631|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\rain\lightning_bolt\init\ModItems.java|2632|2647|tutorialPickaxe|field|com.rain.lightning_bolt.init.ModItems|tutorialPickaxe
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : com.rain.lightning_bolt.init.ModItems
+endProcessing "com\rain\lightning_bolt\init\ModItems.java"
+
+startProcessing "com\rain\lightning_bolt\item\ItemFireBeGone.java" md5: 60c233175cb062a7e4a1a9933e1109c8
+Cache Hit!
+@|com\rain\lightning_bolt\item\ItemFireBeGone.java|8|36|com.rain.lightning_bolt.item|package|com.rain.lightning_bolt.item|(file)
+Class Start: com.rain.lightning_bolt.item.ItemFireBeGone
+   @|com\rain\lightning_bolt\item\ItemFireBeGone.java|846|860|ItemFireBeGone|class|com.rain.lightning_bolt.item.ItemFireBeGone
+   @|com\rain\lightning_bolt\item\ItemFireBeGone.java|869|873|Item|class|net.minecraft.item.Item
+   Method Start: ItemFireBeGone(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|908|912|name|param|com.rain.lightning_bolt.item.ItemFireBeGone|ItemFireBeGone|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|886|900|ItemFireBeGone|method|com.rain.lightning_bolt.item.ItemFireBeGone|ItemFireBeGone|(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|901|907|String|class|java.lang.String
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|917|935|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|936|940|name|param|com.rain.lightning_bolt.item.ItemFireBeGone|ItemFireBeGone|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|944|959|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|960|964|name|param|com.rain.lightning_bolt.item.ItemFireBeGone|ItemFireBeGone|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|968|982|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|983|996|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|997|1013|tabLightningBolt|field|com.rain.lightning_bolt.LightningBolt|tabLightningBolt
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1017|1032|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+   Method End: ItemFireBeGone(Ljava/lang/String;)V
+   Method Start: addRecipes()V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1096|1106|addRecipes|method|com.rain.lightning_bolt.item.ItemFireBeGone|addRecipes|()V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1112|1124|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1125|1140|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1145|1161|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1162|1175|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1176|1182|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1184|1189|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1190|1207|FIRE_BE_GONE_ITEM|field|com.rain.lightning_bolt.lib.Names|FIRE_BE_GONE_ITEM
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1214|1230|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1231|1244|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1245|1251|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1253|1258|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1259|1276|FIRE_BE_GONE_ITEM|field|com.rain.lightning_bolt.lib.Names|FIRE_BE_GONE_ITEM
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1283|1292|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1342|1347|Items|class|net.minecraft.init.Items
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1348|1360|WATER_BUCKET|field|net.minecraft.init.Items|WATER_BUCKET
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1367|1378|PotionUtils|class|net.minecraft.potion.PotionUtils
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1379|1399|addPotionToItemStack|method|net.minecraft.potion.PotionUtils|addPotionToItemStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/potion/PotionType;)Lnet/minecraft/item/ItemStack;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1404|1413|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1414|1419|Items|class|net.minecraft.init.Items
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1420|1433|SPLASH_POTION|field|net.minecraft.init.Items|SPLASH_POTION
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1436|1447|PotionTypes|class|net.minecraft.init.PotionTypes
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1448|1453|WATER|field|net.minecraft.init.PotionTypes|WATER
+   Method End: addRecipes()V
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1532|1539|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1554|1562|playerIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1573|1579|handIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1467|1475|Override|class|java.lang.Override
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1485|1497|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1498|1507|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1509|1525|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1526|1531|World|class|net.minecraft.world.World
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1541|1553|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1564|1572|EnumHand|class|net.minecraft.util.EnumHand
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1584|1593|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1602|1610|playerIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1611|1622|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1623|1629|handIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1638|1645|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1646|1654|isRemote|field|net.minecraft.world.World|isRemote
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1681|1689|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1696|1704|playerIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1705|1716|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1740|1744|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1766|1770|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1809|1813|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1835|1839|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1880|1884|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1905|1909|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1935|1943|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1958|1966|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1984|1991|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|1992|2005|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2015|2023|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2029|2035|Blocks|class|net.minecraft.init.Blocks
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2036|2040|FIRE|field|net.minecraft.init.Blocks|FIRE
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2049|2056|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2057|2070|setBlockToAir|method|net.minecraft.world.World|setBlockToAir|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2110|2114|List|class|java.util.List
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2115|2121|Entity|class|net.minecraft.entity.Entity
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2134|2141|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2142|2163|getEntitiesWithinAABB|method|net.minecraft.world.World|getEntitiesWithinAABB|(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;)Ljava/util/List;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2164|2170|Entity|class|net.minecraft.entity.Entity
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2178|2186|playerIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2187|2207|getEntityBoundingBox|method|net.minecraft.entity.Entity|getEntityBoundingBox|()Lnet/minecraft/util/math/AxisAlignedBB;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2210|2214|grow|method|net.minecraft.util.math.AxisAlignedBB|grow|(D)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2237|2244|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2255|2261|entity|param|java.util.function.Consumer<net.minecraft.entity.Entity>|accept|(Lnet/minecraft/entity/Entity;)V|entity|-1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2262|2272|extinguish|method|net.minecraft.entity.Entity|extinguish|()V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2280|2287|worldIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2288|2297|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2299|2311|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2318|2326|playerIn|param|com.rain.lightning_bolt.item.ItemFireBeGone|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2327|2338|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2342|2353|SoundEvents|class|net.minecraft.init.SoundEvents
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2354|2375|BLOCK_FIRE_EXTINGUISH|field|net.minecraft.init.SoundEvents|BLOCK_FIRE_EXTINGUISH
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2377|2390|SoundCategory|class|net.minecraft.util.SoundCategory
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2391|2398|PLAYERS|field|net.minecraft.util.SoundCategory|PLAYERS
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2422|2428|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2447|2459|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2460|2476|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2477|2484|SUCCESS|field|net.minecraft.util.EnumActionResult|SUCCESS
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2518|2530|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2531|2547|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|com\rain\lightning_bolt\item\ItemFireBeGone.java|2548|2552|FAIL|field|net.minecraft.util.EnumActionResult|FAIL
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+Class End  : com.rain.lightning_bolt.item.ItemFireBeGone
+endProcessing "com\rain\lightning_bolt\item\ItemFireBeGone.java"
+
+startProcessing "com\rain\lightning_bolt\item\ItemLightningBolt.java" md5: 5c5f04e17d7bc735b235e33266cebcaa
+Cache Hit!
+@|com\rain\lightning_bolt\item\ItemLightningBolt.java|8|36|com.rain.lightning_bolt.item|package|com.rain.lightning_bolt.item|(file)
+Class Start: com.rain.lightning_bolt.item.ItemLightningBolt
+   @|com\rain\lightning_bolt\item\ItemLightningBolt.java|733|750|ItemLightningBolt|class|com.rain.lightning_bolt.item.ItemLightningBolt
+   @|com\rain\lightning_bolt\item\ItemLightningBolt.java|759|763|Item|class|net.minecraft.item.Item
+   Method Start: ItemLightningBolt(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|802|806|name|param|com.rain.lightning_bolt.item.ItemLightningBolt|ItemLightningBolt|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|777|794|ItemLightningBolt|method|com.rain.lightning_bolt.item.ItemLightningBolt|ItemLightningBolt|(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|795|801|String|class|java.lang.String
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|811|829|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|830|834|name|param|com.rain.lightning_bolt.item.ItemLightningBolt|ItemLightningBolt|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|838|853|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|854|858|name|param|com.rain.lightning_bolt.item.ItemLightningBolt|ItemLightningBolt|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|862|876|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|877|890|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|891|907|tabLightningBolt|field|com.rain.lightning_bolt.LightningBolt|tabLightningBolt
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|911|926|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|970|982|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+   Method End: ItemLightningBolt(Ljava/lang/String;)V
+   Method Start: addRecipes()V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1027|1037|addRecipes|method|com.rain.lightning_bolt.item.ItemLightningBolt|addRecipes|()V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1046|1058|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1059|1074|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1079|1095|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1096|1109|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1110|1116|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1118|1123|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1124|1143|LIGHTNING_BOLT_ITEM|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_BOLT_ITEM
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1150|1166|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1167|1180|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1181|1187|MOD_ID|field|com.rain.lightning_bolt.LightningBolt|MOD_ID
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1189|1194|Names|class|com.rain.lightning_bolt.lib.Names
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1195|1214|LIGHTNING_BOLT_ITEM|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_BOLT_ITEM
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1221|1230|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1276|1281|Items|class|net.minecraft.init.Items
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1282|1291|BLAZE_ROD|field|net.minecraft.init.Items|BLAZE_ROD
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1298|1303|Items|class|net.minecraft.init.Items
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1304|1315|GOLD_NUGGET|field|net.minecraft.init.Items|GOLD_NUGGET
+   Method End: addRecipes()V
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1393|1400|worldIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1415|1423|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1434|1440|handIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1328|1336|Override|class|java.lang.Override
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1346|1358|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1359|1368|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1370|1386|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1387|1392|World|class|net.minecraft.world.World
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1402|1414|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1425|1433|EnumHand|class|net.minecraft.util.EnumHand
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1445|1454|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1467|1475|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1476|1487|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1488|1494|handIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1506|1513|worldIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1514|1522|isRemote|field|net.minecraft.world.World|isRemote
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1532|1540|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1547|1555|rayTrace|method|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1556|1564|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1577|1588|getBlockPos|method|net.minecraft.util.math.RayTraceResult|getBlockPos|()Lnet/minecraft/util/math/BlockPos;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1598|1605|worldIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1606|1622|addWeatherEffect|method|net.minecraft.world.World|addWeatherEffect|(Lnet/minecraft/entity/Entity;)Z
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1627|1646|EntityLightningBolt|class|net.minecraft.entity.effect.EntityLightningBolt
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1647|1654|worldIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1660|1664|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1672|1676|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1684|1688|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1717|1727|damageItem|method|net.minecraft.item.ItemStack|damageItem|(ILnet/minecraft/entity/EntityLivingBase;)V
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1731|1739|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1759|1771|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1772|1788|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1789|1796|SUCCESS|field|net.minecraft.util.EnumActionResult|SUCCESS
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1831|1843|ActionResult|class|net.minecraft.util.ActionResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1844|1860|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1861|1865|FAIL|field|net.minecraft.util.EnumActionResult|FAIL
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: rayTrace(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1932|1940|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|playerIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1949|1967|blockReachDistance|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|blockReachDistance|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1975|1987|partialTicks|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|partialTicks|2
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1895|1909|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1910|1918|rayTrace|method|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1919|1931|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|1995|2000|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2009|2017|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|playerIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2018|2033|getPositionEyes|method|net.minecraft.entity.Entity|getPositionEyes|(F)Lnet/minecraft/util/math/Vec3d;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2034|2046|partialTicks|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|partialTicks|2
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2053|2058|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2068|2076|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|playerIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2077|2084|getLook|method|net.minecraft.entity.Entity|getLook|(F)Lnet/minecraft/util/math/Vec3d;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2085|2097|partialTicks|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|partialTicks|2
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2104|2109|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2125|2134|addVector|method|net.minecraft.util.math.Vec3d|addVector|(DDD)Lnet/minecraft/util/math/Vec3d;
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2142|2143|x|field|net.minecraft.util.math.Vec3d|x
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2146|2164|blockReachDistance|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|blockReachDistance|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2173|2174|y|field|net.minecraft.util.math.Vec3d|y
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2177|2195|blockReachDistance|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|blockReachDistance|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2204|2205|z|field|net.minecraft.util.math.Vec3d|z
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2208|2226|blockReachDistance|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|blockReachDistance|1
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2240|2248|playerIn|param|com.rain.lightning_bolt.item.ItemLightningBolt|rayTrace|(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;|playerIn|0
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2249|2254|world|field|net.minecraft.entity.Entity|world
+      @|com\rain\lightning_bolt\item\ItemLightningBolt.java|2255|2269|rayTraceBlocks|method|net.minecraft.world.World|rayTraceBlocks|(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;ZZZ)Lnet/minecraft/util/math/RayTraceResult;
+   Method End: rayTrace(Lnet/minecraft/entity/player/EntityPlayer;DF)Lnet/minecraft/util/math/RayTraceResult;
+Class End  : com.rain.lightning_bolt.item.ItemLightningBolt
+endProcessing "com\rain\lightning_bolt\item\ItemLightningBolt.java"
+
+startProcessing "com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java" md5: 13f707f19afbfb88473a4de5bfb72a09
+Cache Hit!
+@|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|8|41|com.rain.lightning_bolt.item.tool|package|com.rain.lightning_bolt.item.tool|(file)
+Class Start: com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+   @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|190|209|ItemTutorialPickaxe|class|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+   @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|218|229|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   Method Start: ItemTutorialPickaxe(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|271|275|name|param|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe|ItemTutorialPickaxe|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|244|263|ItemTutorialPickaxe|method|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe|ItemTutorialPickaxe|(Ljava/lang/String;)V
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|264|270|String|class|java.lang.String
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|286|294|ModItems|class|com.rain.lightning_bolt.init.ModItems
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|295|307|toolMaterial|field|com.rain.lightning_bolt.init.ModItems|toolMaterial
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|314|332|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|333|337|name|param|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe|ItemTutorialPickaxe|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|344|359|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|360|364|name|param|com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe|ItemTutorialPickaxe|(Ljava/lang/String;)V|name|0
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|371|385|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|386|399|LightningBolt|class|com.rain.lightning_bolt.LightningBolt
+      @|com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java|400|416|tabLightningBolt|field|com.rain.lightning_bolt.LightningBolt|tabLightningBolt
+   Method End: ItemTutorialPickaxe(Ljava/lang/String;)V
+Class End  : com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe
+endProcessing "com\rain\lightning_bolt\item\tool\ItemTutorialPickaxe.java"
+
+startProcessing "com\rain\lightning_bolt\lib\Names.java" md5: 83855195a7955e01bd365598e1a5c404
+Cache Hit!
+@|com\rain\lightning_bolt\lib\Names.java|8|35|com.rain.lightning_bolt.lib|package|com.rain.lightning_bolt.lib|(file)
+Class Start: com.rain.lightning_bolt.lib.Names
+   @|com\rain\lightning_bolt\lib\Names.java|51|56|Names|class|com.rain.lightning_bolt.lib.Names
+   @|com\rain\lightning_bolt\lib\Names.java|95|101|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|95|101|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|102|125|LIGHTNING_CHARGER_BLOCK|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_CHARGER_BLOCK|
+   @|com\rain\lightning_bolt\lib\Names.java|189|195|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|189|195|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|196|215|LIGHTNING_BOLT_ITEM|field|com.rain.lightning_bolt.lib.Names|LIGHTNING_BOLT_ITEM|
+   @|com\rain\lightning_bolt\lib\Names.java|263|269|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|263|269|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|270|287|FIRE_BE_GONE_ITEM|field|com.rain.lightning_bolt.lib.Names|FIRE_BE_GONE_ITEM|
+   @|com\rain\lightning_bolt\lib\Names.java|333|339|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|333|339|String|class|java.lang.String
+   @|com\rain\lightning_bolt\lib\Names.java|340|356|TUTORIAL_PICKAXE|field|com.rain.lightning_bolt.lib.Names|TUTORIAL_PICKAXE|
+Class End  : com.rain.lightning_bolt.lib.Names
+endProcessing "com\rain\lightning_bolt\lib\Names.java"
+
