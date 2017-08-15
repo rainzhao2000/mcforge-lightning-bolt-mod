@@ -170,6 +170,7 @@ Class End  : com.rain.lightning_bolt.LightningBolt
 endProcessing "com\rain\lightning_bolt\LightningBolt.java"
 
 startProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java" md5: ca596375cd5b6841dc74a00103f247c6
+Cache Hit!
 @|com\rain\lightning_bolt\block\BlockLightningCharger.java|8|37|com.rain.lightning_bolt.block|package|com.rain.lightning_bolt.block|(file)
 Class Start: com.rain.lightning_bolt.block.BlockLightningCharger
    @|com\rain\lightning_bolt\block\BlockLightningCharger.java|793|814|BlockLightningCharger|class|com.rain.lightning_bolt.block.BlockLightningCharger

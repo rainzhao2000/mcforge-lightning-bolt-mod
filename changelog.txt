@@ -1,0 +1,5 @@
+v1.0
+Added lightning bolt item that spawns lightning where you look by right clicking.
+Added fire be gone item that extinguishes fire blocks and entities in a 10 block radius around the player by right clicking.
+Added lightning charger block that repairs lightning bolt item when right clicked with it.
+Added tutorial pickaxe item while following SilentChaos512's tutorials.

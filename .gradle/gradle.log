@@ -13,11 +13,11 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavaNote: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:processResources
+:processResources UP-TO-DATE
 :classes
 :jar
 :sourceTestJava UP-TO-DATE
@@ -42,4 +42,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 22.77 secs
+Total time: 14.602 secs

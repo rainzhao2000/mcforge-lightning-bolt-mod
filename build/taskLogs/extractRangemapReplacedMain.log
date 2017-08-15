@@ -13,6 +13,7 @@ Cache Hit!
 endProcessing "com\rain\lightning_bolt\LightningBolt.java"
 
 startProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java" md5: ca596375cd5b6841dc74a00103f247c6
+Cache Hit!
 endProcessing "com\rain\lightning_bolt\block\BlockLightningCharger.java"
 
 startProcessing "com\rain\lightning_bolt\init\ModBlocks.java" md5: 7ae5d8ffef9a39aa4c5624c832b1ee60
