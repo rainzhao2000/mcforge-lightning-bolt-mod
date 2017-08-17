@@ -5,6 +5,7 @@ import java.util.List;
 import com.rain.lightning_bolt.LightningBolt;
 import com.rain.lightning_bolt.lib.Names;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -38,6 +39,14 @@ public class ItemFireBeGone extends Item {
 	  "pbp",
 	  " p ",
 	  'b', Items.WATER_BUCKET, 'p', PotionUtils.addPotionToItemStack(new ItemStack(Items.SPLASH_POTION), PotionTypes.WATER));
+  }
+  
+  @Override
+  public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
+	  tooltip.add("\u00A7a" + "Right click to");
+	  tooltip.add("\u00A7a" + "extinguish blocks and");
+	  tooltip.add("\u00A7a" + "entities in 10 block");
+	  tooltip.add("\u00A7a" + "radius.");
   }
   
   @Override

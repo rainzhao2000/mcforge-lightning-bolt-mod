@@ -1,8 +1,11 @@
 package com.rain.lightning_bolt.item;
 
+import java.util.List;
+
 import com.rain.lightning_bolt.LightningBolt;
 import com.rain.lightning_bolt.lib.Names;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
@@ -34,6 +37,12 @@ public class ItemLightningBolt extends Item {
 	  " b ",
 	  "b n",
 	  'b', Items.BLAZE_ROD, 'n', Items.GOLD_NUGGET);
+  }
+  
+  @Override
+  public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
+	  tooltip.add("\u00A7a" + "Right click to");
+	  tooltip.add("\u00A7a" + "strike lightning.");
   }
   
   @Override

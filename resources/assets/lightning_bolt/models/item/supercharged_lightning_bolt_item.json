@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lightning_bolt:items/supercharged_lightning_bolt_item"
+  }
+}

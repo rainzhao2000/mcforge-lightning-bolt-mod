@@ -3,6 +3,7 @@ package com.rain.lightning_bolt.init;
 import com.rain.lightning_bolt.LightningBolt;
 import com.rain.lightning_bolt.item.ItemFireBeGone;
 import com.rain.lightning_bolt.item.ItemLightningBolt;
+import com.rain.lightning_bolt.item.ItemSuperchargedLightningBolt;
 import com.rain.lightning_bolt.item.tool.ItemTutorialPickaxe;
 import com.rain.lightning_bolt.lib.Names;
 
@@ -24,16 +25,19 @@ public class ModItems {
   public static ItemLightningBolt lightningBoltItem;
   public static ItemFireBeGone fireBeGoneItem;
   public static ItemTutorialPickaxe tutorialPickaxe;
+  public static ItemSuperchargedLightningBolt superchargedLightningBoltItem;
 	
   public static void init() {
     lightningBoltItem = new ItemLightningBolt(LightningBolt.RESOURCE_PREFIX + Names.LIGHTNING_BOLT_ITEM);
     fireBeGoneItem = new ItemFireBeGone(LightningBolt.RESOURCE_PREFIX + Names.FIRE_BE_GONE_ITEM);
     tutorialPickaxe = new ItemTutorialPickaxe(LightningBolt.RESOURCE_PREFIX + Names.TUTORIAL_PICKAXE);
+    superchargedLightningBoltItem = new ItemSuperchargedLightningBolt(LightningBolt.RESOURCE_PREFIX + Names.SUPERCHARGED_LIGHTNING_BOLT_ITEM);
   }
   
   public static void initRecipes() {
 	lightningBoltItem.addRecipes();
 	fireBeGoneItem.addRecipes();
+	superchargedLightningBoltItem.addRecipes();
   }
   
   @Mod.EventBusSubscriber(modid = LightningBolt.MOD_ID)
@@ -41,7 +45,7 @@ public class ModItems {
 	  
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-	  event.getRegistry().registerAll(lightningBoltItem, fireBeGoneItem, tutorialPickaxe);
+	  event.getRegistry().registerAll(lightningBoltItem, fireBeGoneItem, tutorialPickaxe, superchargedLightningBoltItem);
 	} 
 	
   }
@@ -59,6 +63,10 @@ public class ModItems {
 	model = new ModelResourceLocation(LightningBolt.RESOURCE_PREFIX + Names.TUTORIAL_PICKAXE, "inventory");
 	ModelLoader.registerItemVariants(tutorialPickaxe, model);
 	mesher.register(tutorialPickaxe, 0, model);
+	
+	model = new ModelResourceLocation(LightningBolt.RESOURCE_PREFIX + Names.SUPERCHARGED_LIGHTNING_BOLT_ITEM, "inventory");
+	ModelLoader.registerItemVariants(superchargedLightningBoltItem, model);
+	mesher.register(superchargedLightningBoltItem, 0, model);
   }
   
 }

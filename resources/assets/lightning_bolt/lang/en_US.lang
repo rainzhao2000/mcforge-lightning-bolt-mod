@@ -7,6 +7,7 @@ tile.lightning_bolt:lightning_charger_block.name=Lightning Charger
 item.lightning_bolt:lightning_bolt_item.name=Lightning Bolt
 item.lightning_bolt:fire_be_gone_item.name=Fire Be Gone
 item.lightning_bolt:tutorial_pickaxe.name=Tutorial Pickaxe
+item.lightning_bolt:supercharged_lightning_bolt_item.name=Supercharged Lightning Bolt
 
 # Creative Tab
 

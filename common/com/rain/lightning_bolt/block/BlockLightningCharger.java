@@ -39,9 +39,10 @@ public class BlockLightningCharger extends Block {
 		'l', new ItemStack(ModItems.lightningBoltItem, 1, OreDictionary.WILDCARD_VALUE), 'd', Blocks.DIAMOND_BLOCK, 'o', Blocks.OBSIDIAN);
   }
   
+  @Override
   public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 	ItemStack itemstack = playerIn.getHeldItem(hand);
-	if (!worldIn.isRemote && itemstack.getItem() == ModItems.lightningBoltItem) {
+	if (!worldIn.isRemote && (itemstack.getItem() == ModItems.lightningBoltItem || itemstack.getItem() == ModItems.superchargedLightningBoltItem)) {
 	  worldIn.addWeatherEffect(new EntityLightningBolt(worldIn, pos.getX(), pos.getY(), pos.getZ(), true));
 	  itemstack.setItemDamage(0);
 	}
